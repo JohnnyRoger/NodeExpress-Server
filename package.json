@@ -1,0 +1,44 @@
+{
+  "name": "nodeexpress-server",
+  "version": "1.0.0",
+  "description": "Node & Express scaffolding for API server",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyRoger/NodeExpress-Server.git"
+  },
+  "keywords": [
+    "nodejsserver",
+    "express",
+    "apiserver"
+  ],
+  "author": "Johnny Roger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnnyRoger/NodeExpress-Server/issues"
+  },
+  "homepage": "https://github.com/JohnnyRoger/NodeExpress-Server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "ioredis": "^5.3.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "redis": "^4.6.7",
+    "uuid": "^9.0.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
