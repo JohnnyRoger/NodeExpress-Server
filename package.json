@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/JohnnyRoger/NodeExpress-Server#readme",
   "dependencies": {
-    "bcrypt": "^5.1.0",
+    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
     "chalk": "^5.3.0",
     "cors": "^2.8.5",
@@ -33,7 +33,7 @@
     "http-errors": "^2.0.0",
     "ioredis": "^5.3.2",
     "joi": "^17.9.2",
-    "jsonwebtoken": "^9.0.1",
+    "jsonwebtoken": "^9.0.2",
     "redis": "^4.6.7",
     "uuid": "^9.0.0",
     "winston": "^3.10.0"
